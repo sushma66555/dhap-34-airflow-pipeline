@@ -1,0 +1,42 @@
+dataset: dataset_catalog
+primary_key: [dataset_code]
+columns:
+  - name: dataset_code
+    type: integer
+    nullable: false
+  - name: dataset_name
+    type: string
+    nullable: true
+  - name: link
+    type: string
+    nullable: true
+  - name: description
+    type: text
+    nullable: true
+  - name: comments
+    type: text
+    nullable: true
+  - name: author
+    type: string
+    nullable: true
+  - name: is_conversation_like
+    type: string
+    nullable: true
+  - name: ai_generated
+    type: string
+    nullable: true
+  - name: comments_on_relevance
+    type: text
+    nullable: true
+  - name: analysis_author
+    type: string
+    nullable: true
+  - name: analysis_author2
+    type: string
+    nullable: true
+  - name: analysis_status
+    type: string
+    nullable: true
+  - name: analysis_status2
+    type: string
+    nullable: true
